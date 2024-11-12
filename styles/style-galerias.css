@@ -1,0 +1,145 @@
+/* ---------- Generales  ---------- */
+
+* {
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main {
+  background-color: rgb(210, 210, 210);
+  overflow: hidden;
+}
+
+
+/* ---------- Header  ---------- */
+
+.nav-header ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-header ul li {
+  margin-left: 20px;
+}
+
+.nav-header ul li a {
+  text-decoration: none;
+  color: black;
+  margin-right: 30px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px;
+  background-color: #dedede;
+  border: solid black 1px;
+}
+
+#logo {
+  margin-left: 2%;
+  width: 250px;
+}
+
+
+/* ---------- Footer  ---------- */
+
+.footer {
+  background-color: #dedede;
+  color: black;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 200px;
+  margin: 10px;
+}
+
+.footer-logo {
+  width: 400px;
+  margin-bottom: 15px;
+}
+
+.footer-section h4 {
+  font-size: 1.1em;
+  margin-bottom: 15px;
+  color: black;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin: 8px 0;
+}
+
+.footer-section ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+  color: rgb(137, 192, 210);
+}
+
+.redes-sociales ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+}
+
+.redes-sociales ul li {
+  display: inline;
+}
+
+.redes-sociales ul li a img {
+  width: 25px;
+  height: 25px;
+}
+.footer-section #enlaces {
+  margin-top: 20px;
+}
+
+.footer-copy {
+  font-size: 0.9em;
+  color: #888;
+  margin-top: 20px;
+}
+
+
+/* ---------- Galeria  ---------- */
+
+main h1 {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.fotos {
+  width: 100%;
+  height: 100%;
+  margin: 10px;
+  display: flexbox;
+}
+
+.fotos img {
+  padding: 10px;
+}
