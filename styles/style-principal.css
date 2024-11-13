@@ -25,7 +25,10 @@ main {
 
 
 /* ---------- Header  ---------- */
-
+.abrir-menu,
+.cerrar-menu{
+  display: none;
+}
 .nav-header ul {
   display: flex;
   list-style: none;
@@ -371,7 +374,7 @@ header {
 }
 
 
-@media (max-width:480px) {
+@media (max-width:820px) {
     /* ---------- Portafolio  ---------- */
 
   .portafolio {
@@ -438,11 +441,102 @@ header {
   .carousel{
     display: none;
   }
-  header{
-    display: none;
+
+
+
+  /* ------- HEADER ------- */
+  .nav-header{
+    opacity: 0;
+    visibility: hidden;
+
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #1c1c1c;
+    padding: 2rem;
+    z-index: 100;
+    box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.5)
+  }
+  .abrir-menu,
+  .cerrar-menu{
+    display: block;
+    border: 0;
+    font-size: 2rem;
+    background-color: transparent;
+    cursor: pointer;
+  }
+
+  .abrir-menu{
+    color: black;
+  }
+  .cerrar-menu{
+    color: #ecececec;
+  }
+
+  .nav-header.visible{
+    opacity: 1;
+    visibility: visible;
+  }
+  .nav-header ul{
+    flex-direction: column;
+    align-items: end;
+  }
+  .nav-header ul li {
+    margin-top: 40px;
+  }
+  .nav-header ul li a{
+    color: #ecececec;
   }
 
 
+
+
+
+
+
+
+
+
+
+
+
+/*   .nav-header ul {
+    display: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-header ul li {
+    margin-left: 20px;
+  }
+  
+  .nav-header ul li a {
+    text-decoration: none;
+    color: black;
+    margin-right: 30px;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px;
+    background-color: #dedede;
+    border: solid black 1px;
+  }
+  
+  #logo {
+    margin-left: 2%;
+    width: 200px;
+  } */
+
+
+  /* --------------------- */
 
   .acerca-de-mi {
     position: relative;
