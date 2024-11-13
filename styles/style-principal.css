@@ -25,6 +25,10 @@ main {
 
 
 /* ---------- Header  ---------- */
+header button{
+  display: none;
+}
+
 .abrir-menu,
 .cerrar-menu{
   display: none;
@@ -459,7 +463,7 @@ header {
     background-color: #1c1c1c;
     padding: 2rem;
     z-index: 100;
-    box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.5)
+    box-shadow: 0 0 0 10000px rgba(0, 0, 0, 0.5)
   }
   .abrir-menu,
   .cerrar-menu{
