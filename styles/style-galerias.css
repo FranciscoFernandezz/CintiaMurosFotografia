@@ -131,7 +131,10 @@ header {
   color: #888;
   margin-top: 20px;
 }
-
+.footer-copy a{
+  color: #888;
+  text-decoration: underline;
+}
 
 /* ---------- Galeria  ---------- */
 
@@ -279,48 +282,19 @@ main h1 {
 
 
 
+/* IMAGENES GALERIAS */
 
-
-
-
-
-
-
-
-
-
-/*   .nav-header ul {
-  display: none;
-  list-style: none;
-  margin: 0;
-  padding: 0;
+.fotos {
+  margin: 10px;
+  text-align: center;
 }
 
-.nav-header ul li {
-  margin-left: 20px;
+.fotos img {
+  padding: 10px;
+
+  width: 70%;
+  height: 10%;
 }
-
-.nav-header ul li a {
-  text-decoration: none;
-  color: black;
-  margin-right: 30px;
-}
-
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 2px;
-  background-color: #dedede;
-  border: solid black 1px;
-}
-
-#logo {
-  margin-left: 2%;
-  width: 200px;
-} */
-
-
 /* --------------------- */
 
 .acerca-de-mi {

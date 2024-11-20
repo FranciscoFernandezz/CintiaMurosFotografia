@@ -143,6 +143,10 @@ header {
   margin-top: 20px;
 }
 
+.footer-copy a{
+  color: #888;
+  text-decoration: underline;
+}
 
 /* ----------- Carrusel ------------ */
 .contacto {
