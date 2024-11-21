@@ -1,7 +1,18 @@
 const nav = document.querySelector("#nav");
 const abrir = document.querySelector("#abrir");
 const cerrar = document.querySelector("#cerrar");
+const enlaces = document.querySelectorAll("#nav ul li a");
 
+enlaces.forEach((enlace) => {
+  enlace.addEventListener("click", () => {
+    nav.classList.remove("visible");
+    overlay.classList.remove("visible");
+  });
+});
+
+window.addEventListener("DOMContentLoaded", () => {
+  nav.classList.remove("visible");
+});
 
 
 abrir.addEventListener("click", () => {
