@@ -23,6 +23,9 @@ cerrar.addEventListener("click", () => {
   nav.classList.remove("visible");
 })
 
+onscroll = (event) => {
+  nav.classList.remove("visible");
+};
 const carrusel = [
 
 ];
